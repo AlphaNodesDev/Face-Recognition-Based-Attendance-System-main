@@ -183,7 +183,7 @@ class Face_Recognizer:
             }
 
             # Prepare URL with parameters
-            php_page_url = 'http://localhost/project%20for%20bca/Face-Recognition-Based-Attendance-System-main/Student-Attendance/faculty/tkat.php?' + urlencode(attendance_data)
+            php_page_url = 'http://localhost/Face-Recognition-Based-Attendance-System-main/Student-Attendance/faculty/tkat.php?' + urlencode(attendance_data)
 
             # Print the URL
             print("GET request URL:", php_page_url)

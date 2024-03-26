@@ -4,9 +4,13 @@ This project is a face recognition-based attendance system that uses OpenCV and 
 
 ## Installation
 
-1. Clone the repository to your local machine. ``` git clone https://github.com/Arijit1080/Face-Recognition-Based-Attendance-System ```
-2. Install the required packages using ```pip install -r requirements.txt```.
-3. Download the dlib models from https://drive.google.com/drive/folders/12It2jeNQOxwStBxtagL1vvIJokoz-DL4?usp=sharing and place the data folder inside the repo
+1. Clone the repository to your local machine. ``` git clone https://github.com/AlphaNodesDev/Face-Recognition-Based-Attendance-System-main.git ```
+2. Move The Folder For XAAMM Folder And Run XAMPP 
+3. Then Open ```http://localhost/Face-Recognition-Based-Attendance-System-main/Student-Attendance ```
+4. Open Student-Attendance ```cd Student-Attendance ```
+4. Install the required packages using ```pip install -r requirements.txt```.
+
+
 
 ## Usage
 
@@ -14,6 +18,10 @@ This project is a face recognition-based attendance system that uses OpenCV and 
 2. Convert the dataset into ```python features_extraction_to_csv.py```.
 3. To take the attendance run ```python attendance_taker.py``` .
 4. Check the Database by ```python app.py```.
+5. Run ```python get_faces_from_camera_tkinter.py``` 
+6. Add multiple Faces and save it 
+7. Run ```Python features_extraction_to_csv.py```
+8. Run ```attendance_taker.py```
 
 
 ## Contributing
